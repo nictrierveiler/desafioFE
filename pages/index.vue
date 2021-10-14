@@ -1,17 +1,19 @@
 <template>
     <body>
   <section class="header">
-    <img class="header__banner" src="/assets/images/fixed-banner.jpg" alt="Só para não profissionais da saúde residentes do Brasil">
+    <div class="header__content">
+    <img class="header__banner" src="\img\fixed-banner.jpg" alt="Só para não profissionais da saúde residentes do Brasil">
+    </div>
     <div class="header__nav"> 
       <img src="\img\dulco-logo.png" alt="Logo Dulco">
       <ul class="header__list">
-        <li class="list__item">Dulcolax®</li>
-        <li class="list__item">Guttalax®</li>
-        <li class="list__item">Dulcogas®</li>
-        <li class="list__item">Dicas de Saúde</li>
-        <li class="list__item">Perguntas Frequentes</li>
-        <li class="list__item">Fale Conosco</li>
-        <li class="list__item">Onde Comprar</li>
+        <li class="header__item">Dulcolax®</li>
+        <li class="header__item">Guttalax®</li>
+        <li class="header__item">Dulcogas®</li>
+        <li class="header__item">Dicas de Saúde</li>
+        <li class="header__item">Perguntas Frequentes</li>
+        <li class="header__item">Fale Conosco</li>
+        <li class="header__item">Onde Comprar</li>
       </ul>
     </div>
   </section>
